@@ -66,11 +66,12 @@ audio::-webkit-media-controls-panel {
 }
 
 .lakshi-ganesha-section{
-    background-color: #F99501
+    background-color: #F99501;
+    padding-bottom: 0.1px;
 }
 
 .lakshi-ganesha-img{
-    max-width: 95%;
+    max-width: 75%;
     display: block;
     max-height: 763px;
     margin-inline: auto;
@@ -81,7 +82,7 @@ audio::-webkit-media-controls-panel {
     text-align: center;
     font-family: "Style Script", serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 0;
 }
 
@@ -104,10 +105,66 @@ audio::-webkit-media-controls-panel {
 }
 
 .white-card p{
-    font-size: 32px;
+    font-size: 2rem;
 }
 
-@media (max-width : 820px){
+.lakshmi-ganesha-card{
+    background-color: white;
+    border-radius: 23px;
+    max-width: 70%;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    /* align-items: center;
+    justify-content: center; */
+    margin-inline: auto;
+}
+
+.lakshmi-ganesha-card img{
+    width: 50%;
+}
+
+.happy-diwali{
+    margin-left: 185px;
+    font-size: 24px;
+}
+
+.thanks{
+    margin-left: 185px;
+    font-family: "Style Script", serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 1rem;
+}
+
+.signature{
+    text-align: right;
+    padding-bottom: 23px;
+    padding-right: 18px;
+    font-size: 1rem;
+}
+
+@media (max-width : 860px){
+    .signature{
+        font-size: 0.8rem;
+        padding-bottom: 21px;
+        padding-right: 16px;
+    }
+    .lakshmi-ganesha-card{
+        padding: 35px;
+    }
+
+    .thanks{
+        font-size: 40px;
+        margin-left: 85px;
+    }
+
+    .happy-diwali{
+        font-size: 18px;
+        margin-left: 85px;
+    }
     .white-card{
         max-width: 320px;
         padding: 30px;
@@ -159,17 +216,34 @@ audio::-webkit-media-controls-panel {
 }
 
 @media (max-width : 560px){
+    .signature{
+        font-size: 0.6rem;
+        padding-bottom: 19px;
+        padding-right: 15px;
+    }
+    .lakshmi-ganesha-card{
+        padding: 20px;
+    }
+    .thanks{
+        font-size: 26px;
+        margin-left: 40px;
+    }
+
+    .happy-diwali{
+        font-size: 14px;
+        margin-left: 40px;
+    }
     .white-card{
-        max-width: 200px;
-        padding: 22px;
+        max-width: 180px;
+        padding: 20px;
     }
 
     .white-card p{
-        font-size: 17px;
+        font-size: 13px;
     }
 
     .little-girl{
-        width: 140px;
+        width: 110px;
         margin-left: -35px;
     }
 
